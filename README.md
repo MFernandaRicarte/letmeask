@@ -1,46 +1,34 @@
-# Getting Started with Create React App
+# Projeto LetMeAsk
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Consiste em um programa de perguntas e respostas. O usuário conecta sua conta Google, faz perguntas e marca como gostei os questionários que os outros usuários (com o link da sala) também fizeram. Por enquanto que o administrador cria a sala e pode remover, responder ou apagar as perguntas dos outros usuários.
 
-## Available Scripts
+### Página principal
 
-In the project directory, you can run:
+Usuário tem a opção de conectar sua conta Google, criar uma sala ou entrar em uma sala já existente.
 
-### `yarn start`
+![Captura de tela de 2024-03-24 14-09-41](https://github.com/MFernandaRicarte/letmeask/assets/127758293/fe044c6a-7c04-4cc8-8a82-f4ab1d389c5e)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Após entrar em uma sala, o usuário pode fazer perguntas ao administrador e marcar como gostei os questionamentos dos outros usuários.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![Captura de tela de 2024-03-24 14-13-41](https://github.com/MFernandaRicarte/letmeask/assets/127758293/694966ea-9554-4d40-a512-1dce972b5ebe)
 
-### `yarn test`
+Por enquanto que o adminstrador pode responder, marcar como respondida e apagar as perguntas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Captura de tela de 2024-03-24 14-14-25](https://github.com/MFernandaRicarte/letmeask/assets/127758293/e8cf8520-a4c8-4c9f-bcf5-ca3dc2474bff)
 
-### `yarn build`
+### Principais tecnologias
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- Firebase
+- TypeScript
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Como iniciar o projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- git clone https://github.com/MFernandaRicarte/letmeask.git
+- cd letmeask
+- yarn
+- yarn start
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
